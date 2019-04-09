@@ -935,7 +935,7 @@ int main(void) {
 	int velocidade = 0;
   4006ae:	2300      	movs	r3, #0
   4006b0:	633b      	str	r3, [r7, #48]	; 0x30
-	float perimetro = 2*0.65*3.141592653;
+	float perimetro = 0.65*3.141592653;
   4006b2:	4b85      	ldr	r3, [pc, #532]	; (4008c8 <main+0x240>)
   4006b4:	62fb      	str	r3, [r7, #44]	; 0x2c
 	
@@ -1218,7 +1218,7 @@ int main(void) {
   4008bc:	00400589 	.word	0x00400589
   4008c0:	20400e50 	.word	0x20400e50
   4008c4:	204009d8 	.word	0x204009d8
-  4008c8:	4082b0b5 	.word	0x4082b0b5
+  4008c8:	4002b0b5 	.word	0x4002b0b5
   4008cc:	204009e0 	.word	0x204009e0
   4008d0:	004005f1 	.word	0x004005f1
   4008d4:	204009dc 	.word	0x204009dc

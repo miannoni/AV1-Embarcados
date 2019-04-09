@@ -113,7 +113,7 @@ int main(void) {
 	f_rtt_alarme = true;
 	int deltadist = 0;
 	int velocidade = 0;
-	float perimetro = 2*0.65*3.141592653;
+	float perimetro = 0.65*3.141592653;
 	
 	while(1) {
 		if (flag_do_btn == true) {
